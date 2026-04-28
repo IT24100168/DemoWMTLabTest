@@ -1,5 +1,0 @@
-# netlify.toml (problematic)
-[build]
-  base = "/opt/build"
-  publish = "dist"
-  command = "npm run build"
