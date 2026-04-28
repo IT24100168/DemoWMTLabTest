@@ -1,9 +1,5 @@
+# netlify.toml (problematic)
 [build]
-  base = "frontend"
+  base = "/opt/build"
+  publish = "dist"
   command = "npm run build"
-  publish = "frontend/dist"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
